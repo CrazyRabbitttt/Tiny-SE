@@ -14,7 +14,7 @@ class Joiner {
     for (auto &&thread : threads_) {
       if (thread.joinable()) {
         thread.join();
-      }
+      }  
     }
   }
 
