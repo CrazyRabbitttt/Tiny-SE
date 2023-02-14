@@ -1,0 +1,6 @@
+/Users/shaoguixin/Icee/src/cmake-build-debug/CMakeFiles/edit_cache.dir
+/Users/shaoguixin/Icee/src/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+/Users/shaoguixin/Icee/src/cmake-build-debug/core/CMakeFiles/edit_cache.dir
+/Users/shaoguixin/Icee/src/cmake-build-debug/core/CMakeFiles/rebuild_cache.dir
+/Users/shaoguixin/Icee/src/cmake-build-debug/http/CMakeFiles/edit_cache.dir
+/Users/shaoguixin/Icee/src/cmake-build-debug/http/CMakeFiles/rebuild_cache.dir

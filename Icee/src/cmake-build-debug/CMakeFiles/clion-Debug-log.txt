@@ -1,0 +1,57 @@
+/Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake -DCMAKE_BUILD_TYPE=Debug -DCMAKE_MAKE_PROGRAM=/Applications/CLion.app/Contents/bin/ninja/mac/ninja -G Ninja -S /Users/shaoguixin/Icee/src -B /Users/shaoguixin/Icee/src/cmake-build-debug
+CMake Warning (dev) in CMakeLists.txt:
+  No project() command is present.  The top-level CMakeLists.txt file must
+  contain a literal, direct call to the project() command.  Add a line of
+  code such as
+
+    project(ProjectName)
+
+  near the top of the file, but after cmake_minimum_required().
+
+  CMake is pretending there is a "project(Project)" command on the first
+  line.
+This warning is for project developers.  Use -Wno-dev to suppress it.
+
+CMake Warning (dev) at CMakeLists.txt:1 (add_subdirectory):
+  The source directory
+
+    /Users/shaoguixin/Icee/src/core
+
+  does not contain a CMakeLists.txt file.
+
+  CMake does not support this case but it used to work accidentally and is
+  being allowed for compatibility.
+
+  Policy CMP0014 is not set: Input directories must have CMakeLists.txt.  Run
+  "cmake --help-policy CMP0014" for policy details.  Use the cmake_policy
+  command to set the policy and suppress this warning.
+This warning is for project developers.  Use -Wno-dev to suppress it.
+
+CMake Warning (dev) at CMakeLists.txt:2 (add_subdirectory):
+  The source directory
+
+    /Users/shaoguixin/Icee/src/http
+
+  does not contain a CMakeLists.txt file.
+
+  CMake does not support this case but it used to work accidentally and is
+  being allowed for compatibility.
+
+  Policy CMP0014 is not set: Input directories must have CMakeLists.txt.  Run
+  "cmake --help-policy CMP0014" for policy details.  Use the cmake_policy
+  command to set the policy and suppress this warning.
+This warning is for project developers.  Use -Wno-dev to suppress it.
+
+CMake Warning (dev) in CMakeLists.txt:
+  No cmake_minimum_required command is present.  A line of code such as
+
+    cmake_minimum_required(VERSION 3.24)
+
+  should be added at the top of the file.  The version specified may be lower
+  if you wish to support older CMake versions for this project.  For more
+  information run "cmake --help-policy CMP0000".
+This warning is for project developers.  Use -Wno-dev to suppress it.
+
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /Users/shaoguixin/Icee/src/cmake-build-debug
